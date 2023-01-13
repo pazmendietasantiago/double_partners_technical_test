@@ -14,7 +14,7 @@ El código relacionado a este reto se encuentran en la carpeta "double_partners/
 
 Para la configuración del ambiente, es ideal iniciar primeramente por la base de datos. El ejercicio fue dearrollado sobre una instancia de SQL Server 2019 Express, es aconsejable usar la misma versión.
 
-Si ya se cuenta con una instacia instalada, se debe crear la base de datos *double_partners*  (una creación básica es suficiente), en este paso se puede escoger si restaurarla desde el backup adjunto con el nombre "*double_partners_backup.bak*" o ejecutar los scripts. Recomendaría, por facilidad ir con la primera opción.
+Si ya se cuenta con una instacia instalada, se debe crear la base de datos *double_partners*  (una creación básica es suficiente), en este paso se puede escoger si restaurarla desde el backup adjunto con el nombre "*double_partners_backup.bak*" que se encuentra en el archivo "double_partners_backup.zip" o ejecutar los scripts. Recomendaría, por facilidad ir con la primera opción.
 
 Despues de configurar la base de datos, se puede usar una instancia de Visual Studio, Jetbrains Raider IDE, Visual Studio Code, etc, para cargar el proyecto de la API REST. Tener en cuenta que se debe contar con el ambiente apropiado para ejecutar aplicaciones .NET en su versión 6. Es necesario que se restauren las dependencias antes de realizar la ejecución de la API. Si se cuenta con acceso a la línea de comandos se puede ejecutar 
 

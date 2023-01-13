@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+}
+
+.btn-link {
+  text-decoration: underline;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  color: '#34b1eb';
+}

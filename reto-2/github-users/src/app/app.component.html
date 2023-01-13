@@ -1,0 +1,70 @@
+<div class="d-flex">
+  <div class="container">
+    <div class="row p-3">
+      <div class="col">
+        <!--Buscar-->
+        <h5>Buscar</h5>
+        <input
+          class="form-control"
+          type="text"
+          name="searchbox"
+          id="searchbox"
+          (keyup.enter)="search()"
+          placeholder="Escribe el nombre del usuario para buscar"
+          #searchbox
+        />
+      </div>
+      <hr class="mt-4 mb-4" />
+      <!--Buscar-->
+      <!--Resultados-->
+      <div class="row">
+        <div class="col">
+          <!--Tarjetas-->
+          <div class="row">
+            <div *ngFor="let user of users" class="col-md-4 col-sm-6">
+              <!--Tarjeta-->
+              <div class="card m-2 p-2">
+                <img
+                  class="card-img-top mx-auto"
+                  [src]="user.avatarUrl"
+                  alt="user.login"
+                  height="128px"
+                  style="max-width: 128px; border-radius: 50%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">{{ user.login }}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    GitHub ID {{ user.id }}
+                  </h6>
+                  <p class="card-text mt-4">
+                    La bio de {{ user.login }} puede ser consultada si presionas
+                    <button
+                      class="btn-link"
+                      type="button"
+                      [disabled]="!user.isBioQueryEnable"
+                      (click)="getUser(user.id)"
+                    >
+                      aquí
+                    </button>
+                  </p>
+
+                  <p class="mt-1">{{ user.bio }}</p>
+                  <a
+                    [href]="user.htmlUrl"
+                    target="_blank"
+                    nonreferrer
+                    class="card-link"
+                    >Visita su perfil aquí</a
+                  >
+                </div>
+              </div>
+              <!--Tarjeta-->
+            </div>
+          </div>
+          <!--Tarjetas-->
+        </div>
+      </div>
+      <!--Resultados-->
+    </div>
+  </div>
+</div>

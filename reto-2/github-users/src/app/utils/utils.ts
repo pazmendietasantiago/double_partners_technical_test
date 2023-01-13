@@ -1,0 +1,1 @@
+export const nobio: string = 'El usuario aún no cuenta con una descripción, podrías dirigirte a su perfil y solicitarle que agregue una.';

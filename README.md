@@ -3,7 +3,7 @@
 Este archivo está acompañado de dos directorios:
 - **reto-1**: Contiene el código relacionado a la primer prueba expuesta en el documento donde se describen los retos. El ejercicio constaba de crear un sistema full-stack, por lo cual se relaciona API (.NET 6), Fron-End (Angular 15) y los scripts de base de datos.
 
-- **reto-2**: Contiene el código relacionado a la primer prueba expuesta en el documento donde se describen los retos. El ejercicio constaba de crear una aplicación web que interactuara con la API REST de GitHub, por lo cual se relaciona la app Fron-End (Angular 15) que es todo lo que se requiere para validar el reto.
+- **reto-2**: Contiene el código relacionado a la segunda prueba expuesta en el documento donde se describen los retos. El ejercicio constaba de crear una aplicación web que interactuara con la API REST de GitHub, por lo cual se relaciona la app Fron-End (Angular 15) que es todo lo que se requiere para validar el reto.
 
 **Guía de contenido:**
 
